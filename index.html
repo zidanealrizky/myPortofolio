@@ -1,0 +1,180 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portofolio</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="logo">ZIDANE</div>
+      <div class="navDiv">
+        <label for="menu">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+      <input type="checkbox" id="menu" />
+      <ul class="nav">
+        <label for="menu">
+          <i class="fa-solid fa-xmark"></i>
+        </label>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <!-- header end -->
+
+    <!-- container start -->
+    <div class="container">
+      <!-- banner -->
+      <div class="banner" id="home">
+        <div class="content">
+          <p>WELCOME TO MY PROFILE</p>
+          <h1>
+            Hi, I'm Zidane A <br />
+            a
+            <div class="gradientText">
+              <div
+                class="job"
+                data-job1="{Developer.}"
+                data-job2="{FrontEnd.}"
+              ></div>
+            </div>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            ipsum deleniti nihil aperiam expedita laudantium modi, fuga repellat
+            quod animi cupiditate voluptatum tempora labore mollitia nesciunt
+            veniam nobis doloremque. Illo odit maiores iste quas rerum accusamus
+            nobis ut incidunt cupiditate!
+          </p>
+          <div class="find">
+            <h3>CONTACT WITH ME</h3>
+            <ul>
+              <li><i class="fa-brands fa-facebook"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+            </ul>
+          </div>
+        </div>
+        <div class="avatar">
+          <img src="img/avatar.png" />
+        </div>
+      </div>
+      <!-- skill -->
+      <div id="skill">
+        <div class="title">SKILL</div>
+        <div class="listSkill">
+          <div class="item">
+            <div class="name">HTML5</div>
+            <div class="evaluate" style="--point: 90%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">CSS3</div>
+            <div class="evaluate" style="--point: 90%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">JavaScript</div>
+            <div class="evaluate" style="--point: 80%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">PHP</div>
+            <div class="evaluate" style="--point: 50%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">ReactJS</div>
+            <div class="evaluate" style="--point: 50%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">VueJs</div>
+            <div class="evaluate" style="--point: 5%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">AngularJS</div>
+            <div class="evaluate" style="--point: 5%"></div>
+          </div>
+
+          <div class="item">
+            <div class="name">Laravel</div>
+            <div class="evaluate" style="--point: 5%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- project start -->
+      <div id="project">
+        <div class="title">PROJECT</div>
+        <div class="listProject">
+          <div class="item">
+            <img src="img/img1.png" />
+            <div class="name">Add To Cart Coffee Shop</div>
+          </div>
+
+          <div class="item">
+            <img src="img/img2.png" />
+            <div class="name">Design Slider Image</div>
+          </div>
+
+          <div class="item">
+            <img src="img/img3.png" />
+            <div class="name">Earphone Design Slider</div>
+          </div>
+
+          <div class="item">
+            <img src="img/img4.png" />
+            <div class="name">Personal Notes With React</div>
+          </div>
+
+          <div class="item">
+            <img src="img/img5.png" />
+            <div class="name">Design Slider Image 2</div>
+          </div>
+
+          <!-- <div class="item">
+            <img src="img/img6.jpg" />
+            <div class="name">Name Project</div>
+          </div> -->
+        </div>
+      </div>
+      <!-- project end -->
+      <!-- contact start -->
+      <div id="contact">
+        <div class="title">CONTACT</div>
+        <ul class="contact">
+          <li><i class="fa-brands fa-facebook"></i></li>
+          <li><i class="fa-brands fa-instagram"></i></li>
+          <li><i class="fa-brands fa-twitter"></i></li>
+        </ul>
+      </div>
+      <!-- contact end -->
+    </div>
+    <!-- container end -->
+
+    <!-- link javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
